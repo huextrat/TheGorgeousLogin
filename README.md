@@ -1,8 +1,5 @@
-# the_gorgeous_login
+<h1 align="center">The Gorgeous Login</h1>
 
-Gorgeous Login UI
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+<h3 align="center">
+  A login page built with flutter inspired by a design found on Uplabs
+</h3>
