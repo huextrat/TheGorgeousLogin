@@ -221,7 +221,7 @@ class _LoginPageState extends State<LoginPage>
                 ),
                 child: Container(
                   width: 300.0,
-                  height: 235.0,
+                  height: 190.0,
                   child: Column(
                     children: <Widget>[
                       Padding(
@@ -285,40 +285,41 @@ class _LoginPageState extends State<LoginPage>
                           ),
                         ),
                       ),
-                      Container(
-                        decoration: new BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(5.0)),
-                          gradient: new LinearGradient(
-                              colors: [
-                                Theme.Colors.loginGradientEnd,
-                                Theme.Colors.loginGradientStart
-                              ],
-                              begin: const FractionalOffset(0.2, 0.2),
-                              end: const FractionalOffset(1.0, 1.0),
-                              stops: [0.0, 1.0],
-                              tileMode: TileMode.clamp),
-                        ),
-                        child: MaterialButton(
-                            highlightColor: Colors.transparent,
-                            splashColor: Theme.Colors.loginGradientEnd,
-                            //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 10.0, horizontal: 42.0),
-                              child: Text(
-                                "LOGIN",
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25.0,
-                                    fontFamily: "WorkSansBold"),
-                              ),
-                            ),
-                            onPressed: () =>
-                                showInSnackBar("Login button pressed")),
-                      ),
                     ],
                   ),
                 ),
+              ),
+              Container(
+                margin: EdgeInsets.only(top: 170.0),
+                decoration: new BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                  gradient: new LinearGradient(
+                      colors: [
+                        Theme.Colors.loginGradientEnd,
+                        Theme.Colors.loginGradientStart
+                      ],
+                      begin: const FractionalOffset(0.2, 0.2),
+                      end: const FractionalOffset(1.0, 1.0),
+                      stops: [0.0, 1.0],
+                      tileMode: TileMode.clamp),
+                ),
+                child: MaterialButton(
+                    highlightColor: Colors.transparent,
+                    splashColor: Theme.Colors.loginGradientEnd,
+                    //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10.0, horizontal: 42.0),
+                      child: Text(
+                        "LOGIN",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25.0,
+                            fontFamily: "WorkSansBold"),
+                      ),
+                    ),
+                    onPressed: () =>
+                        showInSnackBar("Login button pressed")),
               ),
             ],
           ),
@@ -444,7 +445,7 @@ class _LoginPageState extends State<LoginPage>
                 ),
                 child: Container(
                   width: 300.0,
-                  height: 405.0,
+                  height: 360.0,
                   child: Column(
                     children: <Widget>[
                       Padding(
@@ -570,40 +571,41 @@ class _LoginPageState extends State<LoginPage>
                           ),
                         ),
                       ),
-                      Container(
-                        decoration: new BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(5.0)),
-                          gradient: new LinearGradient(
-                              colors: [
-                                Theme.Colors.loginGradientEnd,
-                                Theme.Colors.loginGradientStart
-                              ],
-                              begin: const FractionalOffset(0.2, 0.2),
-                              end: const FractionalOffset(1.0, 1.0),
-                              stops: [0.0, 1.0],
-                              tileMode: TileMode.clamp),
-                        ),
-                        child: MaterialButton(
-                            highlightColor: Colors.transparent,
-                            splashColor: Theme.Colors.loginGradientEnd,
-                            //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 10.0, horizontal: 42.0),
-                              child: Text(
-                                "SIGN UP",
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25.0,
-                                    fontFamily: "WorkSansBold"),
-                              ),
-                            ),
-                            onPressed: () =>
-                                showInSnackBar("SignUp button pressed")),
-                      ),
                     ],
                   ),
                 ),
+              ),
+              Container(
+                margin: EdgeInsets.only(top: 340.0),
+                decoration: new BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                  gradient: new LinearGradient(
+                      colors: [
+                        Theme.Colors.loginGradientEnd,
+                        Theme.Colors.loginGradientStart
+                      ],
+                      begin: const FractionalOffset(0.2, 0.2),
+                      end: const FractionalOffset(1.0, 1.0),
+                      stops: [0.0, 1.0],
+                      tileMode: TileMode.clamp),
+                ),
+                child: MaterialButton(
+                    highlightColor: Colors.transparent,
+                    splashColor: Theme.Colors.loginGradientEnd,
+                    //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10.0, horizontal: 42.0),
+                      child: Text(
+                        "SIGN UP",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25.0,
+                            fontFamily: "WorkSansBold"),
+                      ),
+                    ),
+                    onPressed: () =>
+                        showInSnackBar("SignUp button pressed")),
               ),
             ],
           ),
