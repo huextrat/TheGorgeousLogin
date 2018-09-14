@@ -293,6 +293,18 @@ class _LoginPageState extends State<LoginPage>
                 margin: EdgeInsets.only(top: 170.0),
                 decoration: new BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                  boxShadow: <BoxShadow>[
+                    BoxShadow(
+                      color: Theme.Colors.loginGradientStart,
+                      offset: Offset(1.0, 6.0),
+                      blurRadius: 20.0,
+                    ),
+                    BoxShadow(
+                      color: Theme.Colors.loginGradientEnd,
+                      offset: Offset(1.0, 6.0),
+                      blurRadius: 20.0,
+                    ),
+                  ],
                   gradient: new LinearGradient(
                       colors: [
                         Theme.Colors.loginGradientEnd,
@@ -579,6 +591,18 @@ class _LoginPageState extends State<LoginPage>
                 margin: EdgeInsets.only(top: 340.0),
                 decoration: new BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                  boxShadow: <BoxShadow>[
+                    BoxShadow(
+                      color: Theme.Colors.loginGradientStart,
+                      offset: Offset(1.0, 6.0),
+                      blurRadius: 20.0,
+                    ),
+                    BoxShadow(
+                      color: Theme.Colors.loginGradientEnd,
+                      offset: Offset(1.0, 6.0),
+                      blurRadius: 20.0,
+                    ),
+                  ],
                   gradient: new LinearGradient(
                       colors: [
                         Theme.Colors.loginGradientEnd,
