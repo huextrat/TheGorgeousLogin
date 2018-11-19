@@ -28,7 +28,7 @@ flutter:
   fonts:
     - family: WorkSansSemiBold
       fonts:
-        - asset: assets/fonts/Work_Sans/WorkSans-Semibold.ttf
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
 
     - family: WorkSansBold
       fonts:
