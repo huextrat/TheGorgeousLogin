@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:the_gorgeous_login/ui/login_page.dart';
+import 'package:flutter/services.dart';
+import 'package:the_gorgeous_login/pages/login_page.dart';
 
-void main() => runApp(new MyApp());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations(<DeviceOrientation>[
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
+
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'TheGorgeousLogin',
-      theme: new ThemeData(
-
-        primarySwatch: Colors.blue,
-      ),
-      home: new LoginPage(),
+      home: LoginPage(),
     );
   }
 }
